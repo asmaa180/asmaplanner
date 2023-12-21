@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+<script src="script.js"></script>
+
+<script>
+  function ms() {
+    const confirmation = confirm("Are you sure you want to reset this form?");
+    if (confirmation) {
+      // Clear input fields
+      document.getElementById('txtbox1').value = '';
+      document.getElementById('txtbox2').value = '';
+      document.getElementById('txtbox3').value = '';
+      document.getElementById('txtbox4').value = '';
+      document.getElementById('txtbox5').value = '';
+      document.getElementById('txtbox6').value = '';
+
+      // Uncheck checkboxes
+      document.getElementById('checkbox1').checked = false;
+      document.getElementById('checkbox2').checked = false;
+      document.getElementById('checkbox3').checked = false;
+      document.getElementById('checkbox4').checked = false;
+      document.getElementById('checkbox5').checked = false;
+      document.getElementById('checkbox6').checked = false;
+
+      // Uncheck radio buttons
+      document.getElementById('radiobutton1').checked = false;
+      document.getElementById('radiobutton2').checked = false;
+      document.getElementById('radiobutton3').checked = false;
+      document.getElementById('radiobutton4').checked = false;
+      document.getElementById('radiobutton5').checked = false;
+    }
+  }
+</script>
+
+<script>
+  function msg() {
+    const confirmation = confirm("are you sure you want to send this information?");
+    if (confirmation) {
+      // Clear input fields
+      document.getElementById('txtbox1').value = '';
+      document.getElementById('txtbox2').value = '';
+      document.getElementById('txtbox3').value = '';
+      document.getElementById('txtbox4').value = '';
+      document.getElementById('txtbox5').value = '';
+      document.getElementById('txtbox6').value = '';
+
+      // Uncheck checkboxes
+      document.getElementById('checkbox1').checked = false;
+      document.getElementById('checkbox2').checked = false;
+      document.getElementById('checkbox3').checked = false;
+      document.getElementById('checkbox4').checked = false;
+      document.getElementById('checkbox5').checked = false;
+      document.getElementById('checkbox6').checked = false;
+
+      // Uncheck radio buttons
+      document.getElementById('radiobutton1').checked = false;
+      document.getElementById('radiobutton2').checked = false;
+      document.getElementById('radiobutton3').checked = false;
+      document.getElementById('radiobutton4').checked = false;
+      document.getElementById('radiobutton5').checked = false;
+    }
+  }
+</script>
+
+  <title>
+    Asma Planner
+  </title>
+
+  <style>
+    *{
+      font-family: 'Dancing Script', cursive; 
+      color: white;
+    }
+
+    body {
+      background-image: url(nayra.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-attachment: fixed;
+      width: 100%;
+    }
+    
+    h1.specialclass {
+      position: relative;
+      margin-left: 540px;
+      font-style: italic;
+      font-size: 40px;
+      font-weight: bold;
+    }
+    
+    div.home {
+      border: 1px solid;
+      border-radius: 30px;
+      padding: 3%;
+      margin-left: 420px;
+      width: 600px;
+      height: 500px;
+    }
+    
+    h2.info {
+      margin-left: 160px;
+      font-size: 35px;
+      font-weight: bold;
+    
+    }
+    
+    
+    button {
+      
+      color: black !important;
+      font-size: 20px;
+     
+    }
+   
+    p.menu {
+      margin-left: 25%;
+      text-align: left;
+      font-weight: 100px;
+    }
+    
+    p.menu input {
+      width: 250px;
+      height: 25px;
+      border-radius: 5px;
+      border-color: white;
+      color: black;
+    }
+    
+    p.menu label {
+      font-size: 22px;
+      padding-right: 12px;
+    }
+    
+    h1#wed {
+      margin-left: 500px;
+      font-size: 40px;
+    }
+    
+    div#par {
+      border: 1px solid;
+      border-radius: 30px;
+      padding: 3%;
+      margin-left: 420px;
+      width: 600px;
+      height: 500px;
+    }
+    h2.mycl{
+      text-align: center;
+      font-size: 40px;
+      font-weight: bold;
+    }
+    
+    p.p1 {
+      text-align: center;
+      font-size: 30px;
+      margin-top: 60px;
+      
+    }
+    
+    
+    h1.ser {
+      position: relative;
+      margin-left: 400px;
+      font-size: 40px;
+    }
+    
+    p.check {
+      font-size: 25px;
+      padding-right: 15px;
+      margin-left: 460px;
+      margin-top: 80px; 
+      display:flex ; 
+      font-size: 30px;
+  
+    }
+    
+    input[type="checkbox"],
+    input[type="radio"] {
+      width: 20px;
+      height: 20px;
+    }
+    div.moon {
+      border: 1px solid;
+      border-radius: 30px;
+      padding: 3%;
+      margin-left: 420px;
+      width: 600px;
+      height: 500px;
+    }
+    h2.myclass{
+      text-align: center;
+      font-size: 40px;
+      font-weight: bold;
+    }
+    
+    p.honey {
+      text-align: center;
+      margin-top: 60px;
+      font-size: 30px;
+    }
+    h1.quality{
+      position: relative;
+      margin-left: 330px;
+      font-size: 40px;
+      
+    }
+    p.fun{
+      font-size: 25px;
+      padding-right: 15px;
+      margin-left: 500px;
+      margin-top: 40px; 
+      display:flex ; 
+      font-size: 30px;
+    }
+    button.buto{
+      margin-right: 800px;
+    }
+    button.but{
+      margin-left: 600px;
+    }
+    
+   
+   
+  </style>
+</head>
+
+<br/>
+<br/>
+<br/>
+
+<body>
+
+   <h1 class="specialclass"> Welcome With Asma Planner </h1>
+   <br/>
+   <br/>
+   <br/>
+
+    <div class="home" >
+    <h2 class="info" >Customer Information: </h2>
+    <br/>
+
+    <p class="menu">
+    
+    <label for="txtbox1"> First Name:</label>
+    <input id="txtbox1" type="text" name="First Name" maxlength="30"  placeholder="Sara" /> <br/>
+    <br/>
+    <br/>
+
+    <label for="txtbox2"> Last Name:</label>
+    <input id="txtbox2" type="text" name="Last Name" maxlength="30"  placeholder="Hassan" /><br/>
+    <br/>
+    <br/>
+
+   
+    <label for="txtbox3"> Email:</label>
+    <input id="txtbox3" type="email" name="Email"  placeholder="Sara@gmail.com"  required/> <br/>
+    <br/>
+    <br/>
+
+    <label  for="txtbox4"> Number:</label>
+    <input id="txtbox4" type="text" name="number"  required/> <br/>
+    <br/>
+    <br/>
+
+    <label  for="txtbox5"> Date:</label>
+    <input id="txtbox5" type="datetime" name="DATE"  required/> <br/>
+    <br/>
+    <br/>
+
+    <label  for="txtbox6"> Message:</label>
+    <input id="txtbox6" type="text" name="Message" maxlength="200" required/> <br/>
+    </p>
+    </div>
+
+    <br/>
+    <br/>
+    <br/>
+
+    <h1 id="wed"> Your Wedding With Asma Planner :</h1>
+    <br/>
+    <br/>
+
+    <div id="par">
+    <h2 class="mycl">Wedding:</h2>
+
+      <p class="p1">
+        asma planner company offered for Your<br/>
+        some decoration and designs that give<br/>
+        the wedding venue a wonderful and distactive<br/>
+        view,and our company allows you to choose <br/>
+        the place and shape you like.<br/>
+        it also provides some meals and dessert for <br/>
+        guests,according to what was agreed upon in advance.  
+      </p>
+
+    </div>
+    <br/><br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <h1 class="ser"> Some Service That Asma Planner Provides To You:</h1>
+
+    <p class="check">
+    <label for="checkbox1" > photos</label>
+    <input id="checkbox1" type="checkbox" name="photos" /> &nbsp; &nbsp;
+    <label for="checkbox2"> cards</label> 
+    <input id="checkbox2" type="checkbox" name="cards" /> &nbsp; &nbsp;
+    <label for="checkbox3"> videos</label>
+    <input id="checkbox3" type="checkbox" name="videos" /> &nbsp; &nbsp;
+    <label for="checkbox4"> car</label>
+    <input id="checkbox4" type="checkbox" name="car" /> &nbsp; &nbsp;
+    <label for="checkbox5"> dress</label>
+    <input id="checkbox5" type="checkbox" name="dress" /> &nbsp; &nbsp;
+    <label for="checkbox6"> dessert</label>
+    <input id="checkbox6" type="checkbox" name="desserts" /> &nbsp; &nbsp;
+     </p>
+
+     <br/>
+     <br/>
+     <br/>
+
+
+    <div class="moon">
+      <h2 class="myclass"> Honeymoon:</h2>
+        <p class="honey">
+           asma planner company offered you some <br/>
+           suitable and wonderful places that are<br/>
+           charactarized by a stunning view of natural<br/>
+           including the sea, clouds,greenery,and some activites<br/>
+           that you can do with you wife such as safari and having<br/>
+           romantic dinner in the middle of an island,or a boat ride<br/>
+           in the sea.
+        </p>
+      </div>
+
+        <br/>
+        <br/>
+        <br/>
+         <h1 class="quality"> Places Where You Can Spend Quality Time With Your Wife : </h1>
+         <br/>
+         <br/>
+         
+          <p class="fun">
+        <label for="radiobutton1"> Bally</label>
+        <input id="radiobutton1" type="radio" name="B_or_M"  value="Bally"  /> &nbsp; &nbsp;
+        <label for="radiobutton2"> Maldeves</label>
+        <input id="radiobutton2" type="radio" name="B_or_M"  value="Maldeves"  /> &nbsp; &nbsp;
+        <label for="radiobutton3"> Paris</label>
+        <input id="radiobutton3" type="radio" name="B_or_M"  value="Paris"  /> &nbsp; &nbsp;
+        <label for="radiobutton4"> London</label>
+        <input id="radiobutton4" type="radio" name="B_or_M"  value="London"  /> &nbsp; &nbsp;
+        <label for="radiobutton5"> Dubai</label>
+        <input id="radiobutton5" type="radio" name="B_or_M"  value="Dubai"  /> &nbsp; &nbsp;
+        <br/><br/><br/>
+        <br/>
+        </p>
+       
+        <button type="submit"  onclick="msg()" class="but"> login</button>
+        <button  type="Reset" onclick="ms()" class="buto"> Reset</button>
+        
+        <br/>
+        <br/>
+        <br/>
+</body>
+</html>
+
+
+   
